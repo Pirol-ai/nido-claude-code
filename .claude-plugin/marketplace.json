@@ -1,0 +1,15 @@
+{
+  "name": "nido-claude-code",
+  "description": "nido for Claude Code, by Pirol Labs: run code in isolated sandboxes in the EU.",
+  "owner": {
+    "name": "Pirol Labs",
+    "url": "https://pirol.ai"
+  },
+  "plugins": [
+    {
+      "name": "nido",
+      "source": "./plugins/nido",
+      "description": "Let Claude Code create and use Pirol sandboxes — small virtual machines in the EU, CPU or with a GPU — through the nido command line on your computer. Runs as you, with your account."
+    }
+  ]
+}
